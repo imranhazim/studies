@@ -13,7 +13,7 @@ int main() {
 	cout << "Enter weight in kg: " ;
 	cin >> wkg ;
 	wlbs = wkg * 2.2046;
-	cout << setprecision(2);
+	cout << setprecision();
 	cout << fixed << showpoint;
 	cout << "Weight in kg is " << wkg << "kg and weight in pound is " << wlbs << "lbs" ;
 	return 0;

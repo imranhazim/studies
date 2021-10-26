@@ -12,7 +12,7 @@ int main() {
 	cout << "Enter a degree in Celcius: ";
 	cin >> c;
 	f = (1.8)*c+32;
-	cout << c << " Celsius is" << f << " Fahrenheit";
+	cout << c << " Celsius is " << f << " Fahrenheit";
 	
 	return 0;
 }
